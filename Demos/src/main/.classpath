@@ -6,7 +6,8 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="java"/>
 	<classpathentry kind="src" path="gen"/>
-	<classpathentry exported="true" kind="lib" path="/media/enzoroiz/Storage/Downloads/Linux/Android-SDK-master/EstimoteSDK/estimote-sdk-preview.jar"/>
-	<classpathentry exported="true" kind="lib" path="/media/enzoroiz/Storage/Downloads/Linux/Android-SDK-master/EstimoteSDK/estimote-sdk-preview-javadoc.jar"/>
+	<classpathentry kind="lib" path="/media/enzoroiz/Storage/Downloads/Linux/Android-SDK-master/EstimoteSDK/estimote-sdk-preview.jar"/>
+	<classpathentry kind="lib" path="/media/enzoroiz/Storage/Downloads/Linux/Android-SDK-master/EstimoteSDK/estimote-sdk-preview-javadoc.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/estimote-sdk-preview.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

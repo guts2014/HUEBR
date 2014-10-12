@@ -49,9 +49,9 @@ public class HintActivity extends Activity {
 
 		tipsText = new ArrayList<String>();
 
-		tipsText.add("Verint");
-		tipsText.add("Pringles");
-		tipsText.add("Curry");
+		tipsText.add("JPMorgan");
+		tipsText.add("Yo-Yo");
+		tipsText.add("Chips Can");
 		tip = (TextView) findViewById(R.id.textView2);
 		tip.setText(tipsText.get(0));
 
