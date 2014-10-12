@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <PreferenceCategory
+        android:key="pref_key_geral"
+        android:title="Geral" >
+
+        <Preference
+            android:key="pref_key_register"
+            android:summary="Register the beacons for a new challenge"
+            android:title="Create a challenge" >
+
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="com.estimote.examples.demos.BeaconsActivity"
+                android:targetPackage="com.estimote.examples.demos" />
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_game">GameActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_register_beacon">RegisterBeacon</string>
+	<string name="dbstatement"> 
+
+CREATE TABLE "Beacon"(
+[id_beacon] integer PRIMARY KEY UNIQUE NOT NULL
+,[minor] integer NOT NULL
+,[major] integer NOT NULL
+,[color] varchar(100) NOT NULL
+,[guid] varchar(100)
+  , CONSTRAINT [uniqueid] UNIQUE([minor],[major]) ON CONFLICT Fail  
+);
+
+CREATE TABLE "Challenge"(
+[id_challenge] integer PRIMARY KEY UNIQUE NOT NULL
+,[name] varchar(100) NOT NULL
+);
+
+CREATE TABLE "Riddle"(
+[id_riddle] integer PRIMARY KEY UNIQUE NOT NULL
+,[id_beacon] integer NOT NULL REFERENCES [Beacon] ([id_beacon]) On Delete CASCADE On Update CASCADE
+,[descrip] varchar(500) NOT NULL   
+);
+
+CREATE TABLE "Stage"(
+[id_stage] integer PRIMARY KEY UNIQUE NOT NULL
+,[id_challenge] integer NOT NULL REFERENCES [challenge] ([id_challenge]) On Delete CASCADE On Update CASCADE
+,[id_riddle] integer NOT NULL REFERENCES [Riddle] ([id_riddle]) On Delete CASCADE On Update CASCADE
+,[ord] integer NOT NULL   
+);
+
+</string>
+</resources>

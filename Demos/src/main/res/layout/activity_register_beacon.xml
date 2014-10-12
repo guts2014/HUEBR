@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/txvSpinnerChallenge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a challenge"
+        android:textSize="15dp" />
+    
+    <Spinner
+            android:id="@+id/spinnerChallenge"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="0.3"
+            android:gravity="right"
+            android:textSize="7dp"
+            android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txvBeaconQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beacon question:"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edtBeaconQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:lines="1"
+        android:scrollHorizontally="true"
+        android:singleLine="true" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/txvColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beacon Color"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edtColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:lines="1"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:windowSoftInputMode="stateVisible|adjustPan" />
+    
+    <TextView
+        android:id="@+id/txvMajor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Major"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edtMajor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:lines="1"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:windowSoftInputMode="stateVisible|adjustPan"
+        android:editable="false" />
+    
+    <TextView
+        android:id="@+id/txvMinor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minor"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edtMinor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:lines="1"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:windowSoftInputMode="stateVisible|adjustPan"
+        android:editable="false" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:onClick="btnRegister" />
+
+</LinearLayout>

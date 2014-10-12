@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="201dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:layout_weight="0.54"
+        android:layout_x="2dp"
+        android:layout_y="83dp"
+        android:src="@drawable/beacon_blue" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Cheers, hunter!"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="You&apos;ve found\n the beacon!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.54"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Tap to the next beacon..."
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>
