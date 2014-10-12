@@ -9,10 +9,6 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Toast;
 
-/**
- * Shows all available demos.
- *
- */
 public class BeaconsManagerActivity extends Activity {
 
 	private int touchCounter;

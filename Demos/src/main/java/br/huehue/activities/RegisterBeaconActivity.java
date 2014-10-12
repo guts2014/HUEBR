@@ -105,12 +105,12 @@ public class RegisterBeaconActivity extends Activity {
 		//
 		// if (beacon == null)
 		// beacon = DBAdapter.addBeacon(minor, major,
-		// colour.getText().toString(), "asdf");
+		// colour.getText().toString(), "Message");
 		//
 		// RiddleData riddleData = DBAdapter.addRiddle(beacon,
 		// riddle.getText().toString());
 		// List<FullStage> asdf = DBAdapter.getAllStages(dfsdafdsf.last);
-		// DBAdapter.addStage(dfsdafdsf.last, riddleData, asdf.size());
+		// DBAdapter.addStage(GlobalState.last, riddleData, asdf.size());
 
 		Toast.makeText(getApplicationContext(),
 				"This beacon was added to your challenge!", Toast.LENGTH_SHORT)

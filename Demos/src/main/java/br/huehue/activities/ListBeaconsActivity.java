@@ -22,10 +22,6 @@ import com.estimote.sdk.BeaconManager;
 import com.estimote.sdk.Region;
 import com.estimote.sdk.utils.L;
 
-/**
- * Displays list of found beacons sorted by RSSI. Starts new activity with
- * selected beacon if activity was provided.
- */
 public class ListBeaconsActivity extends Activity {
 
 	private static final String TAG = HintActivity.class.getSimpleName();

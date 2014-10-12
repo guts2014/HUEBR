@@ -11,10 +11,7 @@ import br.huehue.database.DBAdapter;
 
 import com.estimote.examples.demos.R;
 
-/**
- * Shows all available demos.
- *
- */
+
 public class MainActivity extends Activity {
 
 	public static Boolean flag = false;
